@@ -1,0 +1,32 @@
+CREATE DATABASE movie_analytics_db;
+
+USE movie_analytics_db;
+
+CREATE TABLE actors (
+    ActorID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    BirthYear INT,
+    Nationality VARCHAR(50)
+);
+
+CREATE TABLE movies (
+    MovieID INT PRIMARY KEY,
+    Title VARCHAR(100),
+    ReleaseYear INT,
+    Director VARCHAR(100),
+    Rating FLOAT
+);
+
+CREATE TABLE reviews (
+    ReviewID INT PRIMARY KEY,
+    MovieID INT,
+    UserID INT,
+    Rating INT,
+    ReviewDate DATE
+);
+
+CREATE TABLE movie_actors (
+    MovieID INT,
+    ActorID INT,
+    PRIMARY KEY (MovieID, ActorID)
+);
