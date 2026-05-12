@@ -5,13 +5,11 @@ Developed a relational movie analytics database using MySQL to manage movie, act
 
 ## Technologies Used
 - MySQL
-- SQL
 
 ## Database Tables
 1. actors
 2. movies
 3. reviews
-4. movie_actors
 
 ## SQL Concepts Used
 - CREATE TABLE
