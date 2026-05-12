@@ -18,7 +18,6 @@ Developed a relational movie analytics database using MySQL to manage movie, act
 - JOIN Operations
 - GROUP BY
 - Aggregate Functions
-- Foreign Keys
 - ORDER BY
 - Filtering Queries
 
